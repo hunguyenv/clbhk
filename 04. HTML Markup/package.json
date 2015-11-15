@@ -1,0 +1,17 @@
+{
+  "version": "1.0.0",
+  "private": true,
+  "name": "sacFrontEnd",
+  "description": "Southern Aviation Club Front-End",
+  "repository": "https://github.com/hunguyenv/clbhk.git",
+  "license": "MIT",
+  "scripts": {
+    "prestart": "npm install",
+    "start": "http-server -a 0.0.0.0 -p 8800",
+    "preupdate-webdriver": "npm install",
+    "update-webdriver": "webdriver-manager update"
+  },
+  "dependencies": {
+    "http-server": "^0.8.5"
+  }
+}
